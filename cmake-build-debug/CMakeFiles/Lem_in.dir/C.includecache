@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/osloboda/study/Lem_in/includes/lem_in.h
+../libft/libft.h
+/Users/osloboda/study/Lem_in/libft/libft.h
+
+/Users/osloboda/study/Lem_in/libft/get_next_line.h
+fcntl.h
+/Users/osloboda/study/Lem_in/libft/fcntl.h
+sys/types.h
+/Users/osloboda/study/Lem_in/libft/sys/types.h
+sys/uio.h
+/Users/osloboda/study/Lem_in/libft/sys/uio.h
+unistd.h
+/Users/osloboda/study/Lem_in/libft/unistd.h
+stdlib.h
+/Users/osloboda/study/Lem_in/libft/stdlib.h
+libft.h
+/Users/osloboda/study/Lem_in/libft/libft.h
+
+/Users/osloboda/study/Lem_in/libft/libft.h
+stdlib.h
+-
+get_next_line.h
+/Users/osloboda/study/Lem_in/libft/get_next_line.h
+unistd.h
+-
+string.h
+-
+stdarg.h
+/Users/osloboda/study/Lem_in/libft/stdarg.h
+
+/Users/osloboda/study/Lem_in/srcs/main.c
+../includes/lem_in.h
+/Users/osloboda/study/Lem_in/includes/lem_in.h
+

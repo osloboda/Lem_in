@@ -28,7 +28,7 @@ typedef struct		s_map
 	char			*name;
 	int 			x;
 	int 			y;
-	struct t_rst	*link;
+	struct s_rst	*link;
 	struct s_map	*next;
 }					t_map;
 

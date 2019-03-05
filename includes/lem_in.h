@@ -28,8 +28,10 @@ typedef struct		s_map
 	char			*name;
 	int 			x;
 	int 			y;
+	int             visited;
 	struct s_rst	*link;
 	struct s_map	*next;
+    struct s_map	*prev;
 }					t_map;
 
 typedef struct		s_var
@@ -38,5 +40,12 @@ typedef struct		s_var
 	t_map			*end;
 	int 			ants;
 }					t_var;
+
+typedef struct		s_li
+{
+    struct s_map	*content;
+    size_t			content_size;
+    struct s_li 	*next;
+}					t_li;
 
 #endif

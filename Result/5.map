@@ -1,0 +1,6 @@
+start room1
+room1 start room2
+room2 room1 room3
+room3 room2 room4
+room4 room3 end
+end room4

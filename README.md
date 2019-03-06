@@ -8,6 +8,6 @@ Lem_in intelligently select the paths and movements that ants must take.
 
 ```console
 make
-./Lem-in < example.txt | ./visualizer
+./lem-in < example.txt | ./visualizer
 ```
 # Preview

@@ -192,7 +192,7 @@ void		marafon(t_var *var)
 	i = var->ants;
 	lines = 0;
 	r = 1;
-	while (r)
+	while (lines < 40)
 	{
 		tmp = var->ways;
 		r = 0;

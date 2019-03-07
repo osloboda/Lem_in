@@ -29,23 +29,29 @@ typedef struct		s_map
 	int 			x;
 	int 			y;
 	int             visited;
+	int             locked;
+	int 			ant;
 	struct s_rst	*link;
 	struct s_map	*next;
     struct s_map	*prev;
 }					t_map;
 
+typedef struct		s_li
+{
+	struct s_map	*content;
+	size_t			content_size;
+	struct s_li 	*way;
+	int 			way_lenght;
+	struct s_li 	*next;
+	struct s_li 	*prev;
+}					t_li;
+
 typedef struct		s_var
 {
 	t_map			*start;
 	t_map			*end;
+	t_li			*ways;
 	int 			ants;
 }					t_var;
-
-typedef struct		s_li
-{
-    struct s_map	*content;
-    size_t			content_size;
-    struct s_li 	*next;
-}					t_li;
 
 #endif

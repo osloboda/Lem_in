@@ -19,6 +19,42 @@ void		free_mass(char **mass)
 	free(mass);
 }
 
+void		lstadd(t_li **alst, t_li *new)
+{
+	t_li	*tmp;
+
+	if (alst != NULL && new != NULL)
+	{
+		tmp = *alst;
+		while (tmp->next)
+			tmp = tmp->next;
+		tmp->next = new;
+		new->prev = tmp;
+		tmp->next->prev = tmp;
+	}
+}
+
+t_li		*lstnew(t_map *content, size_t content_size)
+{
+	t_li	*t;
+
+	if (!(t = (t_li*)malloc(sizeof(t_li))))
+		return (NULL);
+	if (content != NULL)
+	{
+		t->content = content;
+		t->content_size = content_size;
+	}
+	else
+	{
+		t->content = NULL;
+		t->content_size = 0;
+	}
+	t->next = NULL;
+	t->prev = NULL;
+	return (t);
+}
+
 void		freelst(t_var *var, t_map *map)
 {
 	t_map	*m;
@@ -42,8 +78,164 @@ void		freelst(t_var *var, t_map *map)
 	}
 }
 
-int        error(char *line, t_var *var, t_map *map)
+void		BFS(t_var *var, int unic)
 {
+	t_map		*v;
+	t_rst		*tmp;
+	t_li		*waiting;
+
+	v = var->start;
+	var->end->prev = NULL;
+	waiting = lstnew(v, sizeof(t_map*));
+	while (waiting && waiting->content && ft_strcmp(v->name, var->end->name))
+	{
+		v = waiting->content;
+		waiting = waiting->next;
+		tmp = v->link;
+		v->visited = unic;
+		while (tmp)
+		{
+			if (tmp->room->visited != unic && !tmp->room->locked)
+			{
+				if (!waiting)
+					waiting = lstnew(tmp->room, sizeof(t_map*));
+				else
+					lstadd(&waiting, lstnew(tmp->room, sizeof(t_map*)));
+				tmp->room->prev = v;
+			}
+			tmp = tmp->next;
+		}
+	}
+	var->ants = var->ants;
+}
+
+void		store_way(t_var *var)
+{
+	t_li	*w;
+	t_li	*tmp;
+	t_map	*going;
+	int 	i;
+
+	w = var->ways;
+	i = 0;
+	going = var->end;
+	while (w && w->next)
+		w = w->next;
+	if (!w)
+	{
+		var->ways = lstnew(0, sizeof(t_li *));
+		w = var->ways;
+	}
+	else
+		{
+		lstadd(&w, lstnew(0, sizeof(t_li *)));
+		w = w->next;
+	}
+	w->way = lstnew(going, sizeof(t_map *));
+	while (going->prev && ++i)
+	{
+		if (ft_strcmp(going->prev->name, var->start->name))
+			going->prev->locked = 1;
+		tmp = lstnew(going->prev, sizeof(t_map *));
+		tmp->next = w->way;
+		w->way->prev = tmp;
+		w->way = tmp;
+		going = going->prev;
+	}
+	w->way->way_lenght = i;
+}
+
+int 		connn(t_li *tmp, t_li *ww)
+{
+	t_li	*www;
+	int 	res;
+
+	res = 0;
+	www = ww;
+	while (www && www->way != tmp)
+	{
+		res += tmp->way_lenght - www->way->way_lenght;
+		www = www->next;
+	}
+	return (res);
+}
+
+int			mvway(t_li *cur, int i)
+{
+	t_li	*tmp;
+	int 	r;
+
+	tmp = cur;
+	r = 0;
+	while (tmp->next)
+		tmp = tmp->next;
+	tmp->content->ant = 0;
+	while (tmp->prev && tmp->content->ant != i) {
+		if (tmp->prev->content->ant) {
+			tmp->content->ant = tmp->prev->content->ant;
+			r = ft_printf("L%i-%s ", tmp->prev->content->ant, tmp->content->name);
+			tmp->prev->content->ant = 0;
+		}
+		tmp = tmp->prev;
+	}
+	return (r);
+}
+
+void		marafon(t_var *var)
+{
+	t_li	*www;
+	t_li	*tmp;
+	int 	i;
+	int 	lines;
+	int		r;
+
+	i = var->ants;
+	lines = 0;
+	r = 1;
+	while (r)
+	{
+		tmp = var->ways;
+		r = 0;
+		while (tmp && (www = tmp->way->next))
+		{
+			www->way_lenght = tmp->way->way_lenght;
+			r = mvway(www, var->ants - i);
+			if ((www == var->ways->way && i > 0))
+			{
+				r = ft_printf("L%i-%s ", var->ants - i + 1, www->content->name);
+				www->content->ant = var->ants - i + 1;
+				i--;
+			}
+			else if (i > connn(tmp->way, var->ways))
+			{
+				r = ft_printf("L%i-%s ", var->ants - i + 1, www->content->name);
+				www->content->ant = var->ants - i + 1;
+				i--;
+			}
+			tmp = tmp->next;
+		}
+		ft_printf("\n");
+		lines++;
+	}
+	ft_printf("%i\n", lines);
+}
+
+int			error(char *line, t_var *var, t_map *map)
+{
+	int i;
+	i = 1;
+	BFS(var, i);
+	var->ways = NULL;
+	var->start->prev = NULL;
+	store_way(var);
+	while (var->end->prev && i++)
+	{
+		BFS(var, i);
+		if (!var->end->prev)
+			break;
+		store_way(var);
+	}
+	marafon(var);
 	ft_strdel(&line);
 	ft_printf("ERROR\n");
 	freelst(var, map);
@@ -59,72 +251,6 @@ int			is_digit(char *line)
 		if (!ft_isdigit((int)*(tmp++)))
 			return (0);
 	return (1);
-}
-
-void		lstadd(t_li **alst, t_li *new)
-{
-	t_li	*tmp;
-
-	if (alst != NULL && new != NULL)
-	{
-		tmp = *alst;
-		while (tmp->next)
-			tmp = tmp->next;
-		tmp->next = new;
-	}
-}
-
-t_li		*lstnew(t_map *content, size_t content_size)
-{
-	t_li	*t;
-
-	if (!(t = (t_li*)malloc(sizeof(t_li))))
-		return (NULL);
-	if (content != NULL)
-	{
-		t->content = content;
-		t->content_size = content_size;
-	}
-	else
-	{
-		t->content = NULL;
-		t->content_size = 0;
-	}
-	t->next = NULL;
-	return (t);
-}
-
-
-void		BFS(t_map *c, t_var *var)
-{
-    t_map		*v;
-	t_rst		*tmp;
-	t_li		*waiting;
-	int 		flag;
-
-	flag = 1;
-	v = c;
-	waiting = lstnew(v, sizeof(t_map*));
-    while (waiting && waiting->content && flag)
-	{
-    	v = waiting->content;
-    	waiting = waiting->next;
-    	tmp = v->link;
-    	v->visited = 1;
-    	while (tmp)
-		{
-    		if (!tmp->room->visited)
-    		{
-    			if (!waiting)
-    				waiting = lstnew(tmp->room, sizeof(t_map*));
-    			else
-    				lstadd(&waiting, lstnew(tmp->room, sizeof(t_map*)));
-				tmp->room->prev = v;
-			}
-    		tmp = tmp->next;
-		}
-	}
-    var->ants = var->ants;
 }
 
 t_map		*push_front(t_map *head, char *line)
@@ -155,6 +281,8 @@ t_map		*push_front(t_map *head, char *line)
     tmp2->next = NULL;
     tmp2->link = NULL;
     tmp2->visited = 0;
+	tmp2->locked = 0;
+	tmp2->ant = 0;
 	free_mass(mass);
     if (!tmp)
         return (tmp2);

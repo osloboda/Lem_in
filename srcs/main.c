@@ -188,18 +188,21 @@ void		marafon(t_var *var)
 	int 	i;
 	int 	lines;
 	int		r;
+	int 	k;
 
 	i = var->ants;
 	lines = 0;
 	r = 1;
-	while (lines < 40)
+	k = 1;
+	while (lines < 80)
 	{
 		tmp = var->ways;
 		r = 0;
+		k = 0;
 		while (tmp && (www = tmp->way->next))
 		{
 			www->way_lenght = tmp->way->way_lenght;
-			r = mvway(www, var->ants - i);
+			k = mvway(www, var->ants - i);
 			if ((www == var->ways->way && i > 0))
 			{
 				r = ft_printf("L%i-%s ", var->ants - i + 1, www->content->name);

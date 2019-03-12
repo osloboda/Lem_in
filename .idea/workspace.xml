@@ -13,37 +13,13 @@
   <component name="ChangeListManager">
     <list default="true" id="893c6e46-449a-40ce-9b6d-0647fdaef0e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/-dev-null" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/-dev-urandom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/-dev-zero" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/1.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/10_lots_of_comments.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/2.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/20.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/5.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/9_path_depth_10_ants.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/9_path_depth_2_ants.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/9_path_depth_4_ants.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/9_path_depth_8_ants.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/9_path_depth_9_ants.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_3_coordinates.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_duplicate.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_empty.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_letter_in_coordinate.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_link_to_unknown_room.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_no_ants.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_no_ants2.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_no_ants3.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_no_end.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_no_end2.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_no_links.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_no_rooms.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_no_start.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_no_start2.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_start_end_same.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_too_few_ants.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result/err_too_many_ants.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/libft/ft_atoi.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/libft/ft_atoi.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/srcs/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lem_in.dir/srcs/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lem_in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lem_in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/lem_in.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/lem_in.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lem-in" beforeDir="false" afterPath="$PROJECT_DIR$/lem-in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_atoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_atoi.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/objects/main.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reere" beforeDir="false" afterPath="$PROJECT_DIR$/reere" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srcs/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/srcs/main.c" afterDir="false" />
@@ -61,28 +37,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/srcs/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="204" column="42" lean-forward="true" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="42" />
+            <state relative-caret-position="232">
+              <caret line="600" column="62" selection-start-line="600" selection-start-column="62" selection-end-line="600" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reere">
+        <entry file="file://$PROJECT_DIR$/testbigs.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1087">
-              <caret line="4877" lean-forward="true" selection-end-line="4879" />
+            <state relative-caret-position="362">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libft/ft_strdup.c">
+        <entry file="file://$PROJECT_DIR$/testbig.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="1029" column="14" selection-start-line="1029" selection-start-column="14" selection-end-line="1029" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libft/ft_new_strjoin.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
@@ -91,19 +71,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/lem_in.h">
+        <entry file="file://$PROJECT_DIR$/libft/libft.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="15">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests">
+        <entry file="file://$PROJECT_DIR$/libft/ft_strdup.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="89" selection-end-line="89" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libft/ft_strsplit.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reere">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libft/ft_strdel.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/lem_in.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+              <folding>
+                <element signature="e#928#955#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,6 +133,7 @@
     <findStrings>
       <find>way_le</find>
       <find>##end</find>
+      <find>Qni8</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,15 +142,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/libft/ft_atoi.c" />
+        <option value="$PROJECT_DIR$/map" />
         <option value="$PROJECT_DIR$/includes/lem_in.h" />
-        <option value="$PROJECT_DIR$/srcs/main.c" />
+        <option value="$PROJECT_DIR$/testbig.txt" />
         <option value="$PROJECT_DIR$/reere" />
+        <option value="$PROJECT_DIR$/srcs/main.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="32" />
+    <option name="x" value="559" />
+    <option name="y" value="23" />
     <option name="width" value="1968" />
     <option name="height" value="1337" />
   </component>
@@ -139,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,17 +170,22 @@
               <item name="Lem_in" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lem_in" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Lem_in" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lem_in" type="462c0819:PsiDirectoryNode" />
+              <item name="libft" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,31 +219,36 @@
       <workItem from="1551960769070" duration="3325000" />
       <workItem from="1551967126500" duration="19433000" />
       <workItem from="1551990082467" duration="527000" />
-      <workItem from="1552034630295" duration="2482000" />
+      <workItem from="1552034630295" duration="2563000" />
+      <workItem from="1552381449447" duration="5013000" />
+      <workItem from="1552388167338" duration="3709000" />
+      <workItem from="1552396375726" duration="4164000" />
+      <workItem from="1552406058770" duration="5547000" />
+      <workItem from="1552412295008" duration="6835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25767000" />
+    <option name="totallyTimeSpent" value="51116000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="32" width="1968" height="1337" extended-state="0" />
+    <frame x="559" y="23" width="1968" height="1337" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3359294" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35410178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23453815" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49896157" weight="0.275502" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.47871235" visible="true" weight="0.24578314" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32931727" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.47819313" weight="0.32931727" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5212876" side_tool="true" visible="true" weight="0.24578314" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -231,14 +265,59 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/srcs/main.c</url>
-          <line>196</line>
-          <option name="timeStamp" value="24" />
+          <line>630</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/main.c</url>
+          <line>456</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/main.c</url>
+          <line>485</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/srcs/main.c</url>
+          <line>527</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>INT_MAX</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>INT8_MAX</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>var-&gt;ants &lt; INT8_MAX</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>var-&gt;ants &lt; INT_MAX</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>INT_MAXT</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ft_atoi(line)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>www-&gt;next-&gt;content-&gt;name</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -252,7 +331,70 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Result/9_path_depth_2_ants.map" />
+    <entry file="file://$PROJECT_DIR$/Result/5.map" />
+    <entry file="file://$PROJECT_DIR$/Result/2.map" />
+    <entry file="file://$PROJECT_DIR$/Result/1.map" />
+    <entry file="file://$PROJECT_DIR$/libft/ft_atoi.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_strchr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_strsplit.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_strdel.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/libft.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libft/ft_strdup.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_new_strjoin.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
@@ -261,52 +403,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/lem_in.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="740">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="e#928#955#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result/9_path_depth_2_ants.map">
+    <entry file="file://$PROJECT_DIR$/testbigs.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="362">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Result/5.map">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests">
+    <entry file="file://$PROJECT_DIR$/testbig.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" selection-end-line="89" />
+        <state relative-caret-position="280">
+          <caret line="1029" column="14" selection-start-line="1029" selection-start-column="14" selection-end-line="1029" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result/2.map">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Result/1.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/reere">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1087">
-          <caret line="4877" lean-forward="true" selection-end-line="4879" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/srcs/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="204" column="42" lean-forward="true" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="42" />
+        <state relative-caret-position="232">
+          <caret line="600" column="62" selection-start-line="600" selection-start-column="62" selection-end-line="600" selection-end-column="62" />
         </state>
       </provider>
     </entry>

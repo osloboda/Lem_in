@@ -14,6 +14,7 @@
 #define LEM_IN_H
 
 #include "../libft/libft.h"
+#include "limits.h"
 
 typedef struct		s_map	t_map;
 
@@ -50,8 +51,12 @@ typedef struct		s_var
 {
 	t_map			*start;
 	t_map			*end;
+	t_map			*pinned;
+	t_map			*locked;
 	t_li			*ways;
+	int 			lines;
 	int 			ants;
+	int 			req;
 }					t_var;
 
 #endif

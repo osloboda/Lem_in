@@ -9,6 +9,8 @@
 /Users/osloboda/study/Lem_in/includes/lem_in.h
 ../libft/libft.h
 /Users/osloboda/study/Lem_in/libft/libft.h
+limits.h
+/Users/osloboda/study/Lem_in/includes/limits.h
 
 /Users/osloboda/study/Lem_in/libft/get_next_line.h
 fcntl.h

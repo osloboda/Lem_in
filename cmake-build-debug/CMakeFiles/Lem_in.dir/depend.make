@@ -281,8 +281,43 @@ CMakeFiles/Lem_in.dir/libft/taketype.c.o: ../libft/get_next_line.h
 CMakeFiles/Lem_in.dir/libft/taketype.c.o: ../libft/libft.h
 CMakeFiles/Lem_in.dir/libft/taketype.c.o: ../libft/taketype.c
 
+CMakeFiles/Lem_in.dir/srcs/bfs.c.o: ../includes/lem_in.h
+CMakeFiles/Lem_in.dir/srcs/bfs.c.o: ../libft/get_next_line.h
+CMakeFiles/Lem_in.dir/srcs/bfs.c.o: ../libft/libft.h
+CMakeFiles/Lem_in.dir/srcs/bfs.c.o: ../srcs/bfs.c
+
+CMakeFiles/Lem_in.dir/srcs/dopmain.c.o: ../includes/lem_in.h
+CMakeFiles/Lem_in.dir/srcs/dopmain.c.o: ../libft/get_next_line.h
+CMakeFiles/Lem_in.dir/srcs/dopmain.c.o: ../libft/libft.h
+CMakeFiles/Lem_in.dir/srcs/dopmain.c.o: ../srcs/dopmain.c
+
+CMakeFiles/Lem_in.dir/srcs/listsfree.c.o: ../includes/lem_in.h
+CMakeFiles/Lem_in.dir/srcs/listsfree.c.o: ../libft/get_next_line.h
+CMakeFiles/Lem_in.dir/srcs/listsfree.c.o: ../libft/libft.h
+CMakeFiles/Lem_in.dir/srcs/listsfree.c.o: ../srcs/listsfree.c
+
+CMakeFiles/Lem_in.dir/srcs/lst.c.o: ../includes/lem_in.h
+CMakeFiles/Lem_in.dir/srcs/lst.c.o: ../libft/get_next_line.h
+CMakeFiles/Lem_in.dir/srcs/lst.c.o: ../libft/libft.h
+CMakeFiles/Lem_in.dir/srcs/lst.c.o: ../srcs/lst.c
+
 CMakeFiles/Lem_in.dir/srcs/main.c.o: ../includes/lem_in.h
 CMakeFiles/Lem_in.dir/srcs/main.c.o: ../libft/get_next_line.h
 CMakeFiles/Lem_in.dir/srcs/main.c.o: ../libft/libft.h
 CMakeFiles/Lem_in.dir/srcs/main.c.o: ../srcs/main.c
+
+CMakeFiles/Lem_in.dir/srcs/moves.c.o: ../includes/lem_in.h
+CMakeFiles/Lem_in.dir/srcs/moves.c.o: ../libft/get_next_line.h
+CMakeFiles/Lem_in.dir/srcs/moves.c.o: ../libft/libft.h
+CMakeFiles/Lem_in.dir/srcs/moves.c.o: ../srcs/moves.c
+
+CMakeFiles/Lem_in.dir/srcs/pushs.c.o: ../includes/lem_in.h
+CMakeFiles/Lem_in.dir/srcs/pushs.c.o: ../libft/get_next_line.h
+CMakeFiles/Lem_in.dir/srcs/pushs.c.o: ../libft/libft.h
+CMakeFiles/Lem_in.dir/srcs/pushs.c.o: ../srcs/pushs.c
+
+CMakeFiles/Lem_in.dir/srcs/startend.c.o: ../includes/lem_in.h
+CMakeFiles/Lem_in.dir/srcs/startend.c.o: ../libft/get_next_line.h
+CMakeFiles/Lem_in.dir/srcs/startend.c.o: ../libft/libft.h
+CMakeFiles/Lem_in.dir/srcs/startend.c.o: ../srcs/startend.c
 

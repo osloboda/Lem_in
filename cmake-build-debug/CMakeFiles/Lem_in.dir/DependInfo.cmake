@@ -79,7 +79,14 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/osloboda/study/Lem_in/libft/powitoab.c" "/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles/Lem_in.dir/libft/powitoab.c.o"
   "/Users/osloboda/study/Lem_in/libft/precision.c" "/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles/Lem_in.dir/libft/precision.c.o"
   "/Users/osloboda/study/Lem_in/libft/taketype.c" "/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles/Lem_in.dir/libft/taketype.c.o"
+  "/Users/osloboda/study/Lem_in/srcs/bfs.c" "/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles/Lem_in.dir/srcs/bfs.c.o"
+  "/Users/osloboda/study/Lem_in/srcs/dopmain.c" "/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles/Lem_in.dir/srcs/dopmain.c.o"
+  "/Users/osloboda/study/Lem_in/srcs/listsfree.c" "/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles/Lem_in.dir/srcs/listsfree.c.o"
+  "/Users/osloboda/study/Lem_in/srcs/lst.c" "/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles/Lem_in.dir/srcs/lst.c.o"
   "/Users/osloboda/study/Lem_in/srcs/main.c" "/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles/Lem_in.dir/srcs/main.c.o"
+  "/Users/osloboda/study/Lem_in/srcs/moves.c" "/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles/Lem_in.dir/srcs/moves.c.o"
+  "/Users/osloboda/study/Lem_in/srcs/pushs.c" "/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles/Lem_in.dir/srcs/pushs.c.o"
+  "/Users/osloboda/study/Lem_in/srcs/startend.c" "/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles/Lem_in.dir/srcs/startend.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

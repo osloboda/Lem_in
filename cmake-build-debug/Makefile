@@ -2148,6 +2148,114 @@ libft/taketype.c.s:
 	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/libft/taketype.c.s
 .PHONY : libft/taketype.c.s
 
+srcs/bfs.o: srcs/bfs.c.o
+
+.PHONY : srcs/bfs.o
+
+# target to build an object file
+srcs/bfs.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/bfs.c.o
+.PHONY : srcs/bfs.c.o
+
+srcs/bfs.i: srcs/bfs.c.i
+
+.PHONY : srcs/bfs.i
+
+# target to preprocess a source file
+srcs/bfs.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/bfs.c.i
+.PHONY : srcs/bfs.c.i
+
+srcs/bfs.s: srcs/bfs.c.s
+
+.PHONY : srcs/bfs.s
+
+# target to generate assembly for a file
+srcs/bfs.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/bfs.c.s
+.PHONY : srcs/bfs.c.s
+
+srcs/dopmain.o: srcs/dopmain.c.o
+
+.PHONY : srcs/dopmain.o
+
+# target to build an object file
+srcs/dopmain.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/dopmain.c.o
+.PHONY : srcs/dopmain.c.o
+
+srcs/dopmain.i: srcs/dopmain.c.i
+
+.PHONY : srcs/dopmain.i
+
+# target to preprocess a source file
+srcs/dopmain.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/dopmain.c.i
+.PHONY : srcs/dopmain.c.i
+
+srcs/dopmain.s: srcs/dopmain.c.s
+
+.PHONY : srcs/dopmain.s
+
+# target to generate assembly for a file
+srcs/dopmain.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/dopmain.c.s
+.PHONY : srcs/dopmain.c.s
+
+srcs/listsfree.o: srcs/listsfree.c.o
+
+.PHONY : srcs/listsfree.o
+
+# target to build an object file
+srcs/listsfree.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/listsfree.c.o
+.PHONY : srcs/listsfree.c.o
+
+srcs/listsfree.i: srcs/listsfree.c.i
+
+.PHONY : srcs/listsfree.i
+
+# target to preprocess a source file
+srcs/listsfree.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/listsfree.c.i
+.PHONY : srcs/listsfree.c.i
+
+srcs/listsfree.s: srcs/listsfree.c.s
+
+.PHONY : srcs/listsfree.s
+
+# target to generate assembly for a file
+srcs/listsfree.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/listsfree.c.s
+.PHONY : srcs/listsfree.c.s
+
+srcs/lst.o: srcs/lst.c.o
+
+.PHONY : srcs/lst.o
+
+# target to build an object file
+srcs/lst.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/lst.c.o
+.PHONY : srcs/lst.c.o
+
+srcs/lst.i: srcs/lst.c.i
+
+.PHONY : srcs/lst.i
+
+# target to preprocess a source file
+srcs/lst.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/lst.c.i
+.PHONY : srcs/lst.c.i
+
+srcs/lst.s: srcs/lst.c.s
+
+.PHONY : srcs/lst.s
+
+# target to generate assembly for a file
+srcs/lst.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/lst.c.s
+.PHONY : srcs/lst.c.s
+
 srcs/main.o: srcs/main.c.o
 
 .PHONY : srcs/main.o
@@ -2174,6 +2282,87 @@ srcs/main.s: srcs/main.c.s
 srcs/main.c.s:
 	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/main.c.s
 .PHONY : srcs/main.c.s
+
+srcs/moves.o: srcs/moves.c.o
+
+.PHONY : srcs/moves.o
+
+# target to build an object file
+srcs/moves.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/moves.c.o
+.PHONY : srcs/moves.c.o
+
+srcs/moves.i: srcs/moves.c.i
+
+.PHONY : srcs/moves.i
+
+# target to preprocess a source file
+srcs/moves.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/moves.c.i
+.PHONY : srcs/moves.c.i
+
+srcs/moves.s: srcs/moves.c.s
+
+.PHONY : srcs/moves.s
+
+# target to generate assembly for a file
+srcs/moves.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/moves.c.s
+.PHONY : srcs/moves.c.s
+
+srcs/pushs.o: srcs/pushs.c.o
+
+.PHONY : srcs/pushs.o
+
+# target to build an object file
+srcs/pushs.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/pushs.c.o
+.PHONY : srcs/pushs.c.o
+
+srcs/pushs.i: srcs/pushs.c.i
+
+.PHONY : srcs/pushs.i
+
+# target to preprocess a source file
+srcs/pushs.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/pushs.c.i
+.PHONY : srcs/pushs.c.i
+
+srcs/pushs.s: srcs/pushs.c.s
+
+.PHONY : srcs/pushs.s
+
+# target to generate assembly for a file
+srcs/pushs.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/pushs.c.s
+.PHONY : srcs/pushs.c.s
+
+srcs/startend.o: srcs/startend.c.o
+
+.PHONY : srcs/startend.o
+
+# target to build an object file
+srcs/startend.c.o:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/startend.c.o
+.PHONY : srcs/startend.c.o
+
+srcs/startend.i: srcs/startend.c.i
+
+.PHONY : srcs/startend.i
+
+# target to preprocess a source file
+srcs/startend.c.i:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/startend.c.i
+.PHONY : srcs/startend.c.i
+
+srcs/startend.s: srcs/startend.c.s
+
+.PHONY : srcs/startend.s
+
+# target to generate assembly for a file
+srcs/startend.c.s:
+	$(MAKE) -f CMakeFiles/Lem_in.dir/build.make CMakeFiles/Lem_in.dir/srcs/startend.c.s
+.PHONY : srcs/startend.c.s
 
 # Help Target
 help:
@@ -2409,9 +2598,30 @@ help:
 	@echo "... libft/taketype.o"
 	@echo "... libft/taketype.i"
 	@echo "... libft/taketype.s"
+	@echo "... srcs/bfs.o"
+	@echo "... srcs/bfs.i"
+	@echo "... srcs/bfs.s"
+	@echo "... srcs/dopmain.o"
+	@echo "... srcs/dopmain.i"
+	@echo "... srcs/dopmain.s"
+	@echo "... srcs/listsfree.o"
+	@echo "... srcs/listsfree.i"
+	@echo "... srcs/listsfree.s"
+	@echo "... srcs/lst.o"
+	@echo "... srcs/lst.i"
+	@echo "... srcs/lst.s"
 	@echo "... srcs/main.o"
 	@echo "... srcs/main.i"
 	@echo "... srcs/main.s"
+	@echo "... srcs/moves.o"
+	@echo "... srcs/moves.i"
+	@echo "... srcs/moves.s"
+	@echo "... srcs/pushs.o"
+	@echo "... srcs/pushs.i"
+	@echo "... srcs/pushs.s"
+	@echo "... srcs/startend.o"
+	@echo "... srcs/startend.i"
+	@echo "... srcs/startend.s"
 .PHONY : help
 
 

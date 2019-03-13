@@ -1045,6 +1045,97 @@ CMakeFiles/Lem_in.dir/srcs/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/srcs/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/osloboda/study/Lem_in/srcs/main.c -o CMakeFiles/Lem_in.dir/srcs/main.c.s
 
+CMakeFiles/Lem_in.dir/srcs/listsfree.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/srcs/listsfree.c.o: ../srcs/listsfree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/Lem_in.dir/srcs/listsfree.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/srcs/listsfree.c.o   -c /Users/osloboda/study/Lem_in/srcs/listsfree.c
+
+CMakeFiles/Lem_in.dir/srcs/listsfree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/srcs/listsfree.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/osloboda/study/Lem_in/srcs/listsfree.c > CMakeFiles/Lem_in.dir/srcs/listsfree.c.i
+
+CMakeFiles/Lem_in.dir/srcs/listsfree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/srcs/listsfree.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/osloboda/study/Lem_in/srcs/listsfree.c -o CMakeFiles/Lem_in.dir/srcs/listsfree.c.s
+
+CMakeFiles/Lem_in.dir/srcs/moves.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/srcs/moves.c.o: ../srcs/moves.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/Lem_in.dir/srcs/moves.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/srcs/moves.c.o   -c /Users/osloboda/study/Lem_in/srcs/moves.c
+
+CMakeFiles/Lem_in.dir/srcs/moves.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/srcs/moves.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/osloboda/study/Lem_in/srcs/moves.c > CMakeFiles/Lem_in.dir/srcs/moves.c.i
+
+CMakeFiles/Lem_in.dir/srcs/moves.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/srcs/moves.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/osloboda/study/Lem_in/srcs/moves.c -o CMakeFiles/Lem_in.dir/srcs/moves.c.s
+
+CMakeFiles/Lem_in.dir/srcs/bfs.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/srcs/bfs.c.o: ../srcs/bfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/Lem_in.dir/srcs/bfs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/srcs/bfs.c.o   -c /Users/osloboda/study/Lem_in/srcs/bfs.c
+
+CMakeFiles/Lem_in.dir/srcs/bfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/srcs/bfs.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/osloboda/study/Lem_in/srcs/bfs.c > CMakeFiles/Lem_in.dir/srcs/bfs.c.i
+
+CMakeFiles/Lem_in.dir/srcs/bfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/srcs/bfs.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/osloboda/study/Lem_in/srcs/bfs.c -o CMakeFiles/Lem_in.dir/srcs/bfs.c.s
+
+CMakeFiles/Lem_in.dir/srcs/pushs.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/srcs/pushs.c.o: ../srcs/pushs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/Lem_in.dir/srcs/pushs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/srcs/pushs.c.o   -c /Users/osloboda/study/Lem_in/srcs/pushs.c
+
+CMakeFiles/Lem_in.dir/srcs/pushs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/srcs/pushs.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/osloboda/study/Lem_in/srcs/pushs.c > CMakeFiles/Lem_in.dir/srcs/pushs.c.i
+
+CMakeFiles/Lem_in.dir/srcs/pushs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/srcs/pushs.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/osloboda/study/Lem_in/srcs/pushs.c -o CMakeFiles/Lem_in.dir/srcs/pushs.c.s
+
+CMakeFiles/Lem_in.dir/srcs/startend.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/srcs/startend.c.o: ../srcs/startend.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/Lem_in.dir/srcs/startend.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/srcs/startend.c.o   -c /Users/osloboda/study/Lem_in/srcs/startend.c
+
+CMakeFiles/Lem_in.dir/srcs/startend.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/srcs/startend.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/osloboda/study/Lem_in/srcs/startend.c > CMakeFiles/Lem_in.dir/srcs/startend.c.i
+
+CMakeFiles/Lem_in.dir/srcs/startend.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/srcs/startend.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/osloboda/study/Lem_in/srcs/startend.c -o CMakeFiles/Lem_in.dir/srcs/startend.c.s
+
+CMakeFiles/Lem_in.dir/srcs/dopmain.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/srcs/dopmain.c.o: ../srcs/dopmain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/Lem_in.dir/srcs/dopmain.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/srcs/dopmain.c.o   -c /Users/osloboda/study/Lem_in/srcs/dopmain.c
+
+CMakeFiles/Lem_in.dir/srcs/dopmain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/srcs/dopmain.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/osloboda/study/Lem_in/srcs/dopmain.c > CMakeFiles/Lem_in.dir/srcs/dopmain.c.i
+
+CMakeFiles/Lem_in.dir/srcs/dopmain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/srcs/dopmain.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/osloboda/study/Lem_in/srcs/dopmain.c -o CMakeFiles/Lem_in.dir/srcs/dopmain.c.s
+
+CMakeFiles/Lem_in.dir/srcs/lst.c.o: CMakeFiles/Lem_in.dir/flags.make
+CMakeFiles/Lem_in.dir/srcs/lst.c.o: ../srcs/lst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/Lem_in.dir/srcs/lst.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lem_in.dir/srcs/lst.c.o   -c /Users/osloboda/study/Lem_in/srcs/lst.c
+
+CMakeFiles/Lem_in.dir/srcs/lst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lem_in.dir/srcs/lst.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/osloboda/study/Lem_in/srcs/lst.c > CMakeFiles/Lem_in.dir/srcs/lst.c.i
+
+CMakeFiles/Lem_in.dir/srcs/lst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lem_in.dir/srcs/lst.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/osloboda/study/Lem_in/srcs/lst.c -o CMakeFiles/Lem_in.dir/srcs/lst.c.s
+
 # Object files for target Lem_in
 Lem_in_OBJECTS = \
 "CMakeFiles/Lem_in.dir/libft/createfield.c.o" \
@@ -1122,7 +1213,14 @@ Lem_in_OBJECTS = \
 "CMakeFiles/Lem_in.dir/libft/powitoab.c.o" \
 "CMakeFiles/Lem_in.dir/libft/precision.c.o" \
 "CMakeFiles/Lem_in.dir/libft/taketype.c.o" \
-"CMakeFiles/Lem_in.dir/srcs/main.c.o"
+"CMakeFiles/Lem_in.dir/srcs/main.c.o" \
+"CMakeFiles/Lem_in.dir/srcs/listsfree.c.o" \
+"CMakeFiles/Lem_in.dir/srcs/moves.c.o" \
+"CMakeFiles/Lem_in.dir/srcs/bfs.c.o" \
+"CMakeFiles/Lem_in.dir/srcs/pushs.c.o" \
+"CMakeFiles/Lem_in.dir/srcs/startend.c.o" \
+"CMakeFiles/Lem_in.dir/srcs/dopmain.c.o" \
+"CMakeFiles/Lem_in.dir/srcs/lst.c.o"
 
 # External object files for target Lem_in
 Lem_in_EXTERNAL_OBJECTS =
@@ -1203,9 +1301,16 @@ Lem_in: CMakeFiles/Lem_in.dir/libft/powitoab.c.o
 Lem_in: CMakeFiles/Lem_in.dir/libft/precision.c.o
 Lem_in: CMakeFiles/Lem_in.dir/libft/taketype.c.o
 Lem_in: CMakeFiles/Lem_in.dir/srcs/main.c.o
+Lem_in: CMakeFiles/Lem_in.dir/srcs/listsfree.c.o
+Lem_in: CMakeFiles/Lem_in.dir/srcs/moves.c.o
+Lem_in: CMakeFiles/Lem_in.dir/srcs/bfs.c.o
+Lem_in: CMakeFiles/Lem_in.dir/srcs/pushs.c.o
+Lem_in: CMakeFiles/Lem_in.dir/srcs/startend.c.o
+Lem_in: CMakeFiles/Lem_in.dir/srcs/dopmain.c.o
+Lem_in: CMakeFiles/Lem_in.dir/srcs/lst.c.o
 Lem_in: CMakeFiles/Lem_in.dir/build.make
 Lem_in: CMakeFiles/Lem_in.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Linking C executable Lem_in"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/osloboda/study/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Linking C executable Lem_in"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lem_in.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

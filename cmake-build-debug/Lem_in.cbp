@@ -342,7 +342,28 @@
 		<Unit filename="/Users/osloboda/study/Lem_in/libft/taketype.c">
 			<Option target="Lem_in"/>
 		</Unit>
+		<Unit filename="/Users/osloboda/study/Lem_in/srcs/bfs.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/osloboda/study/Lem_in/srcs/dopmain.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/osloboda/study/Lem_in/srcs/listsfree.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/osloboda/study/Lem_in/srcs/lst.c">
+			<Option target="Lem_in"/>
+		</Unit>
 		<Unit filename="/Users/osloboda/study/Lem_in/srcs/main.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/osloboda/study/Lem_in/srcs/moves.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/osloboda/study/Lem_in/srcs/pushs.c">
+			<Option target="Lem_in"/>
+		</Unit>
+		<Unit filename="/Users/osloboda/study/Lem_in/srcs/startend.c">
 			<Option target="Lem_in"/>
 		</Unit>
 		<Unit filename="/Users/osloboda/study/Lem_in/CMakeLists.txt">

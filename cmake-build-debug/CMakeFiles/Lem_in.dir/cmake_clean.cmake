@@ -75,6 +75,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/Lem_in.dir/libft/precision.c.o"
   "CMakeFiles/Lem_in.dir/libft/taketype.c.o"
   "CMakeFiles/Lem_in.dir/srcs/main.c.o"
+  "CMakeFiles/Lem_in.dir/srcs/listsfree.c.o"
+  "CMakeFiles/Lem_in.dir/srcs/moves.c.o"
+  "CMakeFiles/Lem_in.dir/srcs/bfs.c.o"
+  "CMakeFiles/Lem_in.dir/srcs/pushs.c.o"
+  "CMakeFiles/Lem_in.dir/srcs/startend.c.o"
+  "CMakeFiles/Lem_in.dir/srcs/dopmain.c.o"
+  "CMakeFiles/Lem_in.dir/srcs/lst.c.o"
   "Lem_in.pdb"
   "Lem_in"
 )

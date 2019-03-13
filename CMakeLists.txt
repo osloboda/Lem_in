@@ -91,6 +91,13 @@ add_executable(Lem_in
         libft/README.md
         libft/taketype.c
         srcs/main.c
+        srcs/listsfree.c
+        srcs/moves.c
+        srcs/bfs.c
+        srcs/pushs.c
+        srcs/startend.c
+        srcs/dopmain.c
+        srcs/lst.c
         author
         Makefile
         README.md)

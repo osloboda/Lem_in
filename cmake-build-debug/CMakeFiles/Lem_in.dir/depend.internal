@@ -281,8 +281,43 @@ CMakeFiles/Lem_in.dir/libft/taketype.c.o
  /Users/osloboda/study/Lem_in/libft/get_next_line.h
  /Users/osloboda/study/Lem_in/libft/libft.h
  /Users/osloboda/study/Lem_in/libft/taketype.c
+CMakeFiles/Lem_in.dir/srcs/bfs.c.o
+ /Users/osloboda/study/Lem_in/includes/lem_in.h
+ /Users/osloboda/study/Lem_in/libft/get_next_line.h
+ /Users/osloboda/study/Lem_in/libft/libft.h
+ /Users/osloboda/study/Lem_in/srcs/bfs.c
+CMakeFiles/Lem_in.dir/srcs/dopmain.c.o
+ /Users/osloboda/study/Lem_in/includes/lem_in.h
+ /Users/osloboda/study/Lem_in/libft/get_next_line.h
+ /Users/osloboda/study/Lem_in/libft/libft.h
+ /Users/osloboda/study/Lem_in/srcs/dopmain.c
+CMakeFiles/Lem_in.dir/srcs/listsfree.c.o
+ /Users/osloboda/study/Lem_in/includes/lem_in.h
+ /Users/osloboda/study/Lem_in/libft/get_next_line.h
+ /Users/osloboda/study/Lem_in/libft/libft.h
+ /Users/osloboda/study/Lem_in/srcs/listsfree.c
+CMakeFiles/Lem_in.dir/srcs/lst.c.o
+ /Users/osloboda/study/Lem_in/includes/lem_in.h
+ /Users/osloboda/study/Lem_in/libft/get_next_line.h
+ /Users/osloboda/study/Lem_in/libft/libft.h
+ /Users/osloboda/study/Lem_in/srcs/lst.c
 CMakeFiles/Lem_in.dir/srcs/main.c.o
  /Users/osloboda/study/Lem_in/includes/lem_in.h
  /Users/osloboda/study/Lem_in/libft/get_next_line.h
  /Users/osloboda/study/Lem_in/libft/libft.h
  /Users/osloboda/study/Lem_in/srcs/main.c
+CMakeFiles/Lem_in.dir/srcs/moves.c.o
+ /Users/osloboda/study/Lem_in/includes/lem_in.h
+ /Users/osloboda/study/Lem_in/libft/get_next_line.h
+ /Users/osloboda/study/Lem_in/libft/libft.h
+ /Users/osloboda/study/Lem_in/srcs/moves.c
+CMakeFiles/Lem_in.dir/srcs/pushs.c.o
+ /Users/osloboda/study/Lem_in/includes/lem_in.h
+ /Users/osloboda/study/Lem_in/libft/get_next_line.h
+ /Users/osloboda/study/Lem_in/libft/libft.h
+ /Users/osloboda/study/Lem_in/srcs/pushs.c
+CMakeFiles/Lem_in.dir/srcs/startend.c.o
+ /Users/osloboda/study/Lem_in/includes/lem_in.h
+ /Users/osloboda/study/Lem_in/libft/get_next_line.h
+ /Users/osloboda/study/Lem_in/libft/libft.h
+ /Users/osloboda/study/Lem_in/srcs/startend.c

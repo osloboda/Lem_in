@@ -6,7 +6,7 @@
 #    By: osloboda <osloboda@student.unit.ua>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/03/04 14:11:49 by osloboda          #+#    #+#              #
-#    Updated: 2019/03/04 14:18:48 by osloboda         ###   ########.fr        #
+#    Updated: 2019/03/13 18:41:11 by osloboda         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = lem-in
 
 INCDIR = includes/
  
-SRC = main.c
+SRC = main.c bfs.c dopmain.c listsfree.c moves.c pushs.c startend.c lst.c
 
 SRCDIR = srcs
 
@@ -28,7 +28,7 @@ LIB = libft/libft.a
 
 INCDIR = includes
 
-FLAGS = -Wall -Werror -Wextra
+FLAGS = -Wall -Werror -Wextra -O3
 
 .PHONY: all clean fclean re cleanlib fcleanlib relib
 

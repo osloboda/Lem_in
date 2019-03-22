@@ -82,7 +82,7 @@ int			startmar(t_var **var, t_map **map, char *line, t_bist **lins)
 	int		i;
 
 	if (!(*var)->start || !(*var)->end)
-		return (error(line, *var, *map, *lins));
+		return (error(NULL, *var, *map, *lins));
 	i = 1;
 	(*var)->ways = NULL;
 	line = NULL;
